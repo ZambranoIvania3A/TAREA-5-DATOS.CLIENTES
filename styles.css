@@ -1,0 +1,74 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background-color: #ca2e2e96;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff4f;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 4px;
+    margin-bottom: 15px;
+    border: 1px solid #010101;
+    border-radius: 3px;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+
+
+/* Estilo para los botones */
+
+button[type="submit"] {
+    background-color: #a21e1e;
+    color: #fff;
+    border-radius: 1xp;
+    padding: 3px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Estilo para género */
+
+.genero-options {
+    display: flex;
+    gap: 10px;
+}
+
+.genero-options label {
+    margin-bottom: 0;
+}
+
+.genero-options input[type="radio"],
+.genero-options input[type="checkbox"] {
+    margin-right: 0px;
+}
+
+.pais-options select {
+    width: 100%;
+}
