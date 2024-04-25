@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingreso de Clientes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>INGRESO DE CLIENTES</h1>
+        <form id="clienteForm">
+            <div class="form-group">
+                <label for="nombres">NOMBRES:</label>
+                <input type="text" id="nombres" name="nombres" required>
+            </div>
+
+            <div class="form-group">
+                <label for="apellidos">APELLIDOS:</label>
+                <input type="text" id="apellidos" name="apellidos" required>
+            </div>
+
+            <div class="form-group">
+                <label for="cedula">CÉDULA:</label>
+                <input type="text" id="cedula" name="cedula" required>
+            </div>
+
+            <div class="form-group">
+                <label for="telefono">TELÉFONO:</label>
+                <input type="text" id="telefono" name="telefono">
+            </div>
+
+            <div class="form-group">
+                <label for="correo">CORREO ELECTRONICO:</label>
+                <input type="email" id="correo" name="correo" required>
+            </div>
+
+            <div class="form-group">
+                <label for="fechaNacimiento">FECHA DE NACIMIENTO:</label>
+                <input type="date" id="fechaNacimiento" name="fechaNacimiento" required>
+            </div>
+
+            <div class="form-group pais-options">
+                <label for="pais">PAÍS:</label>
+                <select id="pais" name="pais">
+                    <option value="Argentina">Argentina</option>
+                    <option value="Bolivia">Bolivia</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Bolivia">Bolivia</option>
+                    <option value="Brasil">Brasil</option>
+                    <option value="Chile">Chile</option>
+                    <option value="Colombia">Colombia</option>
+                    <option value="Costa Rica">Costa Rica</option>
+                    <option value="Ecuador">Ecuador</option>
+                    <option value="El Salvador">El Salvador</option>
+                    <option value="Guatemala">Guatemala</option>
+                    <option value="Honduras">Honduras</option>
+                    <option value="México">México</option>
+                    <option value="Nicaragua">Nicaragua</option>
+                    <option value="Panamá">Panamá</option>
+                    <option value="Paraguay">Paraguay</option>
+                    <option value="Perú">Perú</option>
+                    <option value="Uruguay">Uruguay</option>
+                    <option value="Venezuela">Venezuela</option>
+                </select>
+            </div>
+
+            <div class="form-group genero-options">
+                <label>GÉNERO:</label>
+                <input type="radio" id="masculino" name="genero" value="Masculino">
+                <label for="masculino">Masculino</label>
+
+                <input type="radio" id="femenino" name="genero" value="Femenino">
+                <label for="femenino">Femenino</label>
+            </div>
+            
+
+            <div class="form-group">
+                <button type="submit">Guardar Cliente</button>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
